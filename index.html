@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Random Item Picker</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Random Item Picker</h1>
+  <p id="randomItem">Random Item: </p>
+  <button id="pickButton">Pick Random Item</button>
+  
+  <h2>Leftover Items</h2>
+  <table id="leftoverTable">
+    <tr>
+      <th>Item</th>
+      <th>Quantity</th>
+    </tr>
+    <tr>
+        <td>A01</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A02</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>A03</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>A04</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A05</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A06</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>A07</td>
+        <td>162</td>
+      </tr>
+      <tr>
+        <td>A08</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A09</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A10</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A11</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A12</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>A13</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>A14</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A15</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A16</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>A17</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A19</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A20</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>A21</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A22</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A23</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A24</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A25</td>
+        <td>123</td>
+      </tr>
+      <tr>
+        <td>A26</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A27</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>A28</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A29</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>A30</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A31</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>A32</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>A33</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A34</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>A35</td>
+        <td>242</td>
+      </tr>
+      <tr>
+        <td>A36</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A37</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>A38</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A39</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A40</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A41</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A42</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A43</td>
+        <td>21</td>
+      </tr>
+      <tr>
+        <td>A44</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A45</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A46</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A47</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>A48 น้ำมันเครื่อง</td>
+        <td>24</td>
+      </tr>
+      
+    <!-- Add more rows for other items -->
+  </table>
+  
+  <h2>Picked Items History</h2>
+  <table id="historyTable">
+    <tr>
+      <th>Item</th>
+      <th>Picked At</th>
+    </tr>
+  </table>
+  
+  <script src="script.js"></script>
+</body>
+</html>
